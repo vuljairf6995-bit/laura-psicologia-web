@@ -5,11 +5,16 @@ import AreaCards from "@/components/AreaCards";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import TherapySpanish from "@/components/TherapySpanish";
+import TalleresSection from "@/components/TalleresSection";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
+import TestimonioCTA from "@/components/TestimonioCTA";
 import FAQ from "@/components/FAQ";
+import CalendlySection from "@/components/CalendlySection";
 import FinalCTA from "@/components/FinalCTA";
+import AvisoEtico from "@/components/AvisoEtico";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export default function Home() {
   return (
@@ -22,12 +27,17 @@ export default function Home() {
         <Services />
         <About />
         <TherapySpanish />
+        <TalleresSection />
         <HowItWorks />
         <Testimonials />
+        <TestimonioCTA />
         <FAQ />
+        <CalendlySection bg="bg-[#fafaf7]" />
         <FinalCTA />
+        <AvisoEtico />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 }
